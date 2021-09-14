@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-bottom: 16px;
+}
+
+.select_room {
+  max-width: 400px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.select_room form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.select_room form select {
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.select_room form input {
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.select_room form button {
+  padding: 10px 20px;
+  background: #1a9bf1;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  transition: filter 0.2s;
+}
+
+.select_room form button:hover {
+  filter: brightness(0.8);
+}
+
+.messages {
+  width: 400px;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 8px;
+}
+
+.messages span:nth-child(1) {
+  font-size: 16px;
+}
+
+.emphasis {
+  color: #f52f2f;
+  font-weight: 500;
+}
+
+.message {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#text_message {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 400px;
+}
+
+#logout {
+  background: #f52f2f;
+  font-size: 16px;
+  color: #f0f0f0;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 8px;
+}
